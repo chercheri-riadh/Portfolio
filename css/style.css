@@ -1,6 +1,13 @@
 .sidebar {
-    max-width: 20%
-   
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    max-width: 300px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0px;
 }
 
 .center {
@@ -11,6 +18,30 @@
 }
 
 .main {
-    max-width: 80%;
-    position:absolute;
+    position: absolute;
+    left:8cm;
+    top: 55px;
+    width: 100;
+}
+
+body{
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactimg {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+p{
+    
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myclass{
+    color: aqua;
 }

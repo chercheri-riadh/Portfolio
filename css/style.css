@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     left: 0px;
-    top: 55px;
+    top: 70px;
     max-width: 300px;
 }
 
@@ -20,7 +20,7 @@
 .main {
     position: absolute;
     left:8cm;
-    top: 55px;
+    top: 70px;
     width: 100;
 }
 
@@ -34,12 +34,6 @@ body{
 .contactimg {
     max-width: 40px;
     max-height: 40px;
-}
-
-p{
-    
-    color: aliceblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .myclass{
